@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+                        /** TASK 1*/
         /*
         // Task1
         Scanner scanner = new Scanner(System.in);
@@ -33,7 +34,9 @@ public class Main {
             smallest = number3;
         }
         System.out.println("The smallest number is: " + smallest);
-*/
+        */
+
+                         /** TASK 2*/
         /*
         //Task2
         Scanner scanner = new Scanner(System.in);
@@ -55,7 +58,9 @@ public class Main {
         } else {
             System.out.println("Grade is: " + gradeD);
         }
-    } */
+    }
+    */
+
         /*
         //Task2 David
         Scanner scanner = new Scanner(System.in);
@@ -77,21 +82,28 @@ public class Main {
 
         //Print grade
         System.out.println("The students grade is: " + grade);
-    }*/
+    }
+    */
+
+                        /** TASK 3*/
 
         /**
          Pseudo Code for task 3:
 
          Read temperature
 
-         If temperature >= 80
+         If temperature >= 80 && temperature <= 95
             activity = swimming
-         Else if temperature >= 60 && temperature < 80
+         Else if temperature >= 60 (&& temperature < 80) - optional to write text in brackets because program goes argument after argument
             activity = tennis
-         Else if temperature >= 40 && temperature < 60
+         Else if temperature >= 40 (&& temperature < 60)
             activity = golf
-         Else
+         Else if temperature > 95 || temperature < 20
+            activity = visit our shops
+         Else if temperature < 40 && temperature >= 20
             activity = skiing
+         Else
+            return
 
          Print activity
 
@@ -119,7 +131,7 @@ public class Main {
         }
 
         //Print activity
-        System.out.println("Appropriate activity: " + activity);
+        System.out.println("Appropriate activity for this temperature: " + activity);
     }
 
 
